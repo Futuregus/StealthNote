@@ -42,13 +42,3 @@ Your password is the **ONLY** way to decrypt your notes.
 **Do not lose or forget it — there is no password recovery mechanism.**
 
 ---
-
-## ⚖️ License
-
-This project is licensed under the **GNU General Public License v3.0**.  
-See [`LICENSE`](LICENSE) for more details.
-
-
-
-
-
