@@ -32,9 +32,14 @@ This project is licensed under the **GNU General Public License v3.0**.
 See [`LICENSE`](LICENSE) for more details.
 
 
-## 📷 Screenshot 
-![Screenshot 2025-04-30 204045](https://github.com/user-attachments/assets/c755f636-ad36-4af6-9e65-b615e6b7c578)
+## 📷 Screenshots 
+- Dark mode
+![Darkmode](https://github.com/user-attachments/assets/c811a75f-2f50-451d-b01a-6bee165d7a3d)
 
-_
+- Light mode
+![Lightmode](https://github.com/user-attachments/assets/c6c6a9bc-36b2-4d7d-969c-5817b3da06cd)
+
+
+
 
 
