@@ -1,7 +1,7 @@
 # StealthNote
 ![result](https://github.com/user-attachments/assets/9706fabc-eb83-4da7-9670-db3e21e43a8c)
 
-StealthNote is a simple, secure, and offline-first encrypted text editor built with Python and Tkinter. It allows you to write notes and save them in a fully encrypted `.ectf` format using strong password-based encryption (Fernet + PBKDF2HMAC). Your data never leaves your device.
+StealthNote is a simple, secure, and offline encrypted text editor built with Python and Tkinter. It allows you to write notes and save them in a fully encrypted `.ectf` format using strong password-based encryption (Fernet + PBKDF2HMAC). Your data never leaves your device.
 
 ---
 
