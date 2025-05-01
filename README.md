@@ -1,2 +1,40 @@
-# StealthNote
-StealthNote is a lightweight, secure notepad app designed for storing passwords or sharing secret messages
+# 🔐 StealthNote
+
+StealthNote is a simple, secure, and offline-first encrypted text editor built with Python and Tkinter. It allows you to write notes and save them in a fully encrypted `.ectf` format using strong password-based encryption (Fernet + PBKDF2HMAC). Your data never leaves your device.
+
+---
+
+## ✨ Features
+
+- 💾 **Encrypted Save/Load**: Secure your notes with password-based encryption.
+- 🌙 **Dark/Light Mode**: Toggle between themes for comfortable writing.
+- 📝 **Word Wrap Toggle**: Switch between wrapped or horizontal scrolling.
+- 🔠 **Adjustable Font Size**: Set your preferred reading/writing size.
+- 📂 **Default Save/Open Directory**: Choose a starting folder for file dialogs.
+- 🧹 **Clear Text Button**: Quickly wipe the editor clean.
+- 🔧 **Persistent Settings**: Your preferences are saved and loaded automatically.
+
+---
+
+## 🔐 How It Works
+
+- When you save a note, you're prompted to enter a password.
+- The note is encrypted with a random salt + Fernet encryption using your password.
+- The resulting `.ectf` file contains both the salt and the encrypted message.
+- To open a note, you must enter the same password you used to save it.
+
+Your password is the ONLY way to decrypt your notes.  
+**Do not lose or forget it — there is no password recovery mechanism.**
+
+## ⚖️ License
+
+This project is licensed under the **GNU General Public License v3.0**.  
+See [`LICENSE`](LICENSE) for more details.
+
+
+## 📷 Screenshot 
+![Screenshot 2025-04-30 204045](https://github.com/user-attachments/assets/c755f636-ad36-4af6-9e65-b615e6b7c578)
+
+_
+
+
