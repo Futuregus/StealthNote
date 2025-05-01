@@ -9,7 +9,6 @@ StealthNote is a simple, secure, and offline-first encrypted text editor built w
 
 - 💾 **Encrypted Save/Load**: Secure your notes with password-based encryption.
 - 🌙 **Dark/Light Mode**: Toggle between themes for comfortable writing.
-- 📝 **Word Wrap Toggle**: Switch between wrapped or horizontal scrolling.
 - 🔠 **Adjustable Font Size**: Set your preferred reading/writing size.
 - 📂 **Default Save/Open Directory**: Choose a starting folder for file dialogs.
 - 🧹 **Clear Text Button**: Quickly wipe the editor clean.
