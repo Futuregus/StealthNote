@@ -17,6 +17,13 @@ StealthNote is a simple, secure, and offline encrypted text editor built with Py
 
 ---
 
+## ❓ How To Install
+- 1 Download the latest version of `StealthNote.zip`
+- 2 Unzip StealthNote.zip`
+- 3 Run `ECTFSetup.exe` in administrator and click `Register .ECTF Extension` to proporly set up `.ectf` on your pc
+- 4 You should be all set to open `StealthNote.exe`
+---
+
 ## 🔐 How It Works
 
 - When you save a note, you're prompted to enter a password.
@@ -24,13 +31,6 @@ StealthNote is a simple, secure, and offline encrypted text editor built with Py
 - The note is encrypted with a random salt + Fernet encryption using your password.
 - The resulting `.ectf` file contains both the salt and the encrypted message.
 - To open a note, you must enter the same password you used to save it.
-
----
-## ❓ How To Install
-- 1 Download the latest version of `StealthNote.zip`
-- 2 Unzip StealthNote.zip`
-- 3 Run `ECTFSetup.exe` in administrator and click `Register .ECTF Extension` to proporly set up `.ectf` on your pc
-- 4 You should be all set to open `StealthNote.exe`
 
 ---
 
