@@ -27,7 +27,7 @@ StealthNote is a simple, secure, and offline encrypted text editor built with Py
 ## 🔐 How It Works
 
 - When you save a note, you're prompted to enter a password.
-- **Password Strength**: Your password must be at least 12 characters long and contain at least one uppercase letter, one lowercase letter, one digit, and one special character. This ensures your note is securely encrypted.
+- Password Strength: Use a strong password to keep it safer.
 - The note is encrypted with a random salt + Fernet encryption using your password.
 - The resulting `.ectf` file contains both the salt and the encrypted message.
 - To open a note, you must enter the same password you used to save it.
