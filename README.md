@@ -8,7 +8,7 @@ StealthNote is a simple, secure, and offline encrypted text editor built with Py
 ## ✨ Features
 
 - 💾 **Encrypted Save/Load**: Secure your notes with password-based encryption.
-- 🌙 **Themes**: Choose from a list(or make your own) of themes for comfortable writing.
+- 🌙 **Themes**: Choose from a list of themes (or make your own) for comfortable writing.
 - 🔠 **Adjustable Font Size**: Set your preferred reading/writing size.
 - 📂 **Default Save/Open Directory**: Choose a starting folder for file dialogs.
 - 🧹 **Clear Text Button**: Quickly wipe the editor clean.
