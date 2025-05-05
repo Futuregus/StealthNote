@@ -55,7 +55,7 @@ A weak password = easy target for brute-force attacks.
 
 Yep — the Python code is fully open source and included with every release.
 
-The `.exe` file was made straight from that code using `PyInstaller`. No tracking, no sketchy stuff, no mystery meat.
+The `.exe` file was made straight from that code using `PyInstaller`. No tracking, no sketchy stuff.
 
 Still skeptical? Here's what you can do:
 
