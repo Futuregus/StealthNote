@@ -1,64 +1,81 @@
-# StealthNote
+# 🕵️‍♂️ StealthNote
+
 ![result](https://github.com/user-attachments/assets/9706fabc-eb83-4da7-9670-db3e21e43a8c)
 
-StealthNote is a simple, secure, and offline encrypted text editor built with Python. It allows you to write notes and save them in a fully encrypted `.ectf` format using strong password-based encryption (Fernet + PBKDF2HMAC). Your data never leaves your device.
+**StealthNote** is a simple, secure, and offline encrypted text editor built in Python. It lets you write private notes and save them in a fully encrypted `.ectf` format using strong password-based encryption (Fernet + PBKDF2HMAC).  
+⚠️ Your data never leaves your device. Ever.
 
 ---
 
 ## ✨ Features
 
-- 💾 **Encrypted Save/Load**: Secure your notes with password-based encryption.
-- 🌙 **Themes**: Choose from a list of themes ([or make your own](https://docs.google.com/document/d/1Spz25jdI6UEGjVUOZ90Up5fQTI3quWvMlBbPqFUWrQs/edit?usp=sharing)) for comfortable writing.
-- 🔠 **Adjustable Font Size**: Set your preferred reading/writing size.
-- 📂 **Default Save/Open Directory**: Choose a starting folder for file dialogs.
-- 🧹 **Clear Text Button**: Quickly wipe the editor clean.
-- 🔧 **Persistent Settings**: Your preferences are saved and loaded automatically.
-- 🔐 **Password Strength Validation**: Ensure a strong password with criteria like length, uppercase, lowercase, digits, and special characters.
+- 💾 **Encrypted Save/Load** – Secure your notes with password-based encryption.
+- 🌙 **Themes** – Choose from pre-made themes ([or make your own](https://docs.google.com/document/d/1Spz25jdI6UEGjVUOZ90Up5fQTI3quWvMlBbPqFUWrQs/edit?usp=sharing)).
+- 🔠 **Adjustable Font Size** – Set the font to your perfect writing vibe.
+- 📂 **Default Save/Open Folder** – Set your favorite folder as the starting point.
+- 🧹 **Clear Text Button** – Wipe your text instantly.
+- 🔧 **Persistent Settings** – Remembers your preferences every time you open it.
+- 🛡️ **Password Strength Check** – Warns you if your password is weak sauce.
 
 ---
 
-## ❓ How To Install
-- 1 Download the latest version of `StealthNote.zip`
-- 2 Unzip `StealthNote.zip`
-- 3 Run `ECTFSetup.exe` in administrator and click `Register .ECTF Extension` to proporly set up `.ectf` on your pc
-- 4 You should be all set to open `StealthNote.exe`
+## 🛠️ How To Install
+
+1. Download the latest `StealthNote.zip`
+2. Unzip it
+3. Run `ECTFSetup.exe` as administrator and click **Register .ECTF Extension**
+4. You're all set — launch `StealthNote.exe` and start writing!
+
 ---
 
 ## 🔐 How It Works
 
-- When you save a note, you're prompted to enter a password.
-- Password Strength: Use a strong password to keep it safer.
-- The note is encrypted with a random salt + Fernet encryption using your password.
-- The resulting `.ectf` file contains both the salt and the encrypted message.
-- To open a note, you must enter the same password you used to save it.
+- When saving a note, you’ll be prompted to enter a password.
+- The app uses your password + a random salt to encrypt your data using Fernet.
+- The `.ectf` file contains both the salt and the encrypted content.
+- You’ll need to enter the same password to open it again.
 
 ---
 
-## ❗ Disclaimer
+## ⚠️ Important Security Info
 
-The `.ectf` files are **not secure against brute-force attacks** if you choose a weak password. StealthNote uses strong encryption (Fernet + PBKDF2HMAC), but its security entirely depends on the strength of the password you provide.
+The encryption is **strong**, but it’s only as strong as your password.  
+A weak password = easy target for brute-force attacks.
 
-Always choose a **strong, unique password** — at least 12 characters long, with a mix of uppercase and lowercase letters, numbers, and special characters.
+💡 Tips:
+- Use a **unique**, strong password (at least 12+ characters)
+- Mix UPPER/lowercase, numbers, and symbols
+- Test it out with the included `BruteForceChecker.py`
 
-You can test how secure your password is against brute-force attacks by:
-
-- Downloading the included `BruteForceChecker.py` script.
-- Trying it with tools like [`RockYou.txt`](https://github.com/brannondorsey/naive-hashcat/releases) to simulate a real-world brute-force attempt.
-
-
-Your password is the **ONLY** way to decrypt your notes.  
-**Do not lose or forget it — there is no password recovery mechanism.**
+🧠 Reminder: There’s **no recovery** if you forget your password. Seriously. Don’t lose it.
 
 ---
 
-StealthNote is fully open source  the Python code is included so you can read it, run it, or even improve it yourself.
+## 👀 Is It Safe?
 
-The included `StealthNote.exe` was built directly from the provided Python files using `PyInstaller`. Nothing extra, no funny business.
+Yep — the Python code is fully open source and included with every release.
 
-If you’re still unsure, you can:
-Run the `.py` version directly using `Python 3.10+`
-View or edit the code to verify exactly how it works
-Build your own `.exe` from the same files using `PyInstaller`
-If you'd like help building it yourself, feel free to reach out !
+The `.exe` file was made straight from that code using `PyInstaller`. No tracking, no sketchy stuff, no mystery meat.
+
+Still skeptical? Here's what you can do:
+
+- Run the `.py` version with Python 3.10+
+- Read or edit the code yourself
+- Use `PyInstaller` to build your own `.exe` from the exact same files
+- Need help? Just ask — I got you.
 
 ---
+
+## 🤔 Why Is the `.exe` So Big?
+
+Yeah, I know — the `.py` file is like 20 KB, but the `.exe` is over 14 MB. What gives?
+
+📦 That’s because the `.exe` bundles:
+
+- Python itself (so you don’t need to install anything)
+- All the required libraries
+- The actual StealthNote app code
+
+Think of it like a **self-contained backpack**: everything it needs to run is already zipped up inside. That’s why it “just works” even on a clean Windows PC.
+
+It’s chunky so *you* don’t have to do anything extra. Just unzip and double-click ✅
