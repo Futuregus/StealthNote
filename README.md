@@ -45,7 +45,20 @@ You can test how secure your password is against brute-force attacks by:
 - Downloading the included `BruteForceChecker.py` script.
 - Trying it with tools like [`RockYou.txt`](https://github.com/brannondorsey/naive-hashcat/releases) to simulate a real-world brute-force attempt.
 
+
 Your password is the **ONLY** way to decrypt your notes.  
 **Do not lose or forget it — there is no password recovery mechanism.**
+
+---
+
+StealthNote is fully open source  the Python code is included so you can read it, run it, or even improve it yourself.
+
+The included `StealthNote.exe` was built directly from the provided Python files using `PyInstaller`. Nothing extra, no funny business.
+
+If you’re still unsure, you can:
+Run the `.py` version directly using `Python 3.10+`
+View or edit the code to verify exactly how it works
+Build your own `.exe` from the same files using `PyInstaller`
+If you'd like help building it yourself, feel free to reach out !
 
 ---
