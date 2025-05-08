@@ -3,7 +3,7 @@
 ![result](https://github.com/user-attachments/assets/9706fabc-eb83-4da7-9670-db3e21e43a8c)
 
 **StealthNote** is a simple, secure, and offline encrypted text editor built in Python. It lets you write private notes and save them in a fully encrypted `.ectf` format using strong password-based encryption (Fernet + PBKDF2HMAC).  
-⚠️ Your data never leaves your device. Ever.
+⚠️ Your data never leaves your device — *except for a single online check to see if a new version is available on GitHub.*
 
 ---
 
@@ -16,6 +16,7 @@
 - 🧹 **Clear Text Button** – Wipe your text instantly.
 - 🔧 **Persistent Settings** – Remembers your preferences every time you open it.
 - 🛡️ **Password Strength Check** – Warns you if your password is weak sauce.
+- 🌐 **Update Checker** – Automatically checks GitHub to let you know if a newer version is out (the only part that uses the internet).
 
 ---
 
@@ -57,12 +58,16 @@ Yep — the Python code is fully open source and included with every release.
 
 The `.exe` file was made straight from that code using `PyInstaller`. No tracking, no sketchy stuff.
 
+🔎 The **only** time StealthNote ever touches the internet is when it checks for updates.
+It makes one small request to GitHub to compare your version to the latest one. That’s it. No personal data, no notes, no files just a version check.
+
 Still skeptical? Here's what you can do:
 
 - Run the `.py` version with Python 3.10+
 - Read or edit the code yourself
 - Use `PyInstaller` to build your own `.exe` from the exact same files
-- Need help? Just ask — I got you.
+- You could even run it on airplane mode if you're worried about the internet
+- Need help? Just ask.
 
 ---
 
