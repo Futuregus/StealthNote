@@ -52,7 +52,7 @@ A weak password = easy target for brute-force attacks.
 
 ## 👀 Is It Safe?
 
-Yep — the Python code is fully open source and included with every release.
+Yep — the Python code is fully open source you can find it here https://github.com/Futuregus/StealthNote/tree/StealthNote-Scorce-code.
 
 The `.exe` file was made straight from that code using `PyInstaller`. No tracking, no sketchy stuff.
 
@@ -66,7 +66,7 @@ Still skeptical? Here's what you can do:
 - Use `PyInstaller` to build your own `.exe` from the exact same files
 - You could even run it on airplane mode if you're worried about the internet
 - Need help? Just ask.
--  All sorce code is in https://github.com/Futuregus/StealthNote/tree/StealthNote-Scorce-code
+  
 
 ---
 
