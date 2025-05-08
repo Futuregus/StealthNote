@@ -44,7 +44,7 @@ A weak password = easy target for brute-force attacks.
 💡 Tips:
 - Use a **unique**, strong password (at least 12+ characters)
 - Mix UPPER/lowercase, numbers, and symbols
-- Test it out with the included `BruteForceChecker.py`
+- Test it out with the in the main branch `BruteForceChecker.py`
 
 🧠 Reminder: There’s **no recovery** if you forget your password. Seriously. Don’t lose it.
 
