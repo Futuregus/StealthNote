@@ -66,6 +66,7 @@ Still skeptical? Here's what you can do:
 - Use `PyInstaller` to build your own `.exe` from the exact same files
 - You could even run it on airplane mode if you're worried about the internet
 - Need help? Just ask.
+-  All sorce code is in https://github.com/Futuregus/StealthNote/tree/StealthNote-Scorce-code
 
 ---
 
