@@ -1,6 +1,4 @@
-# 🕵️‍♂️ StealthNote
-
-![result](https://github.com/user-attachments/assets/9706fabc-eb83-4da7-9670-db3e21e43a8c)
+# ![SNlogo40x40](https://github.com/user-attachments/assets/79283756-204c-4124-bfcf-1234cf43d83a) StealthNote
 
 **StealthNote** is a simple, secure, and offline encrypted text editor built in Python. It lets you write private notes and save them in a fully encrypted `.ectf` format using strong password-based encryption (Fernet + PBKDF2HMAC).  
 ⚠️ Your data never leaves your device — *except for a single online check to see if a new version is available on GitHub.*
