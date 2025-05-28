@@ -11,11 +11,12 @@ Your data never leaves your device.
 
 - 💾 **Encrypted Save/Load** – Secure your notes with password-based encryption.
 - 🌙 **Themes** – Choose from pre-made themes ([or make your own](https://docs.google.com/document/d/1Spz25jdI6UEGjVUOZ90Up5fQTI3quWvMlBbPqFUWrQs/edit?usp=sharing)).
-- 🔠 **Adjustable Font Size** – Set the font to your perfect writing vibe.
+- 🔠 **Adjustable Font Size** – Set the font to make it feel your own.
 - 📂 **Default Save/Open Folder** – Set your favorite folder as the starting point.
 - 🧹 **Clear Text Button** – Wipe your text instantly.
 - 🔧 **Persistent Settings** – Remembers your preferences every time you open it.
-- 🛡️ **Password Strength Check** – Warns you if your password is weak sauce.
+- 🛡️ **Password Strength Check** – Warns you if your password is weak.
+- 🕵️‍♂️ **StealthMode** - Quickly hides your notes and opens the calculator app
 - 🌐 **Update Checker** – Automatically checks GitHub to let you know if a newer version is out (the only part that uses the internet).
 
 ---
