@@ -26,7 +26,7 @@ Your data never leaves your device.
 1. Download the latest `StealthNote.zip`
 2. Unzip it
 3. Run `ECTFSetup.exe` as administrator and click **Register .ECTF Extension**
-4. You're all set — launch `StealthNote.exe` and start writing!
+4. You're all set  launch `StealthNote.exe` and start writing!
 
 ---
 
@@ -54,7 +54,7 @@ A weak password = easy target for brute-force attacks.
 
 ## 👀 Is It Safe?
 
-Yep — the Python code is fully open source you can find it here https://github.com/Futuregus/StealthNote/tree/StealthNote-Scorce-code.
+Yep  the Python code is fully open source you can find it here https://github.com/Futuregus/StealthNote/tree/StealthNote-Scorce-code.
 
 The `.exe` file was made straight from that code using `PyInstaller`. No tracking, no sketchy stuff.
 
@@ -74,7 +74,7 @@ Still skeptical? Here's what you can do:
 
 ## 🤔 Why Is the `.exe` So Big?
 
-Yeah, I know — the `.py` file is like 20 KB, but the `.exe` is over 14 MB. What gives?
+Yeah, I know  the `.py` file is smaller than the `.exe`. What gives?
 
 📦 That’s because the `.exe` bundles:
 
