@@ -21,7 +21,7 @@ def find_file(file_name):
         os.getenv("USERPROFILE") + "\\Desktop",
         os.getenv("USERPROFILE") + "\\Documents"
     ]
-    
+
     # Search for the file
     for directory in search_dirs:
         for root, dirs, files in os.walk(directory):
@@ -36,14 +36,14 @@ def register_extension():
         return
 
     # Locate the StealthNote executable and ECTF.ico
-    stealthnote_path = find_file("StealthNote_v1.1.3.exe")
+    stealthnote_path = find_file("StealthNote_v1.2.0.exe")
     icon_path = find_file("ECTF.ico")
 
     if not stealthnote_path or not icon_path:
         messagebox.showerror(
             "Error",
             f"Could not find required files:\n"
-            f"{'StealthNote_v1.1.3.exe not found' if not stealthnote_path else ''}\n"
+            f"{'StealthNote_v1.2.0.exe not found' if not stealthnote_path else ''}\n"
             f"{'ECTF.ico not found' if not icon_path else ''}"
         )
         return
